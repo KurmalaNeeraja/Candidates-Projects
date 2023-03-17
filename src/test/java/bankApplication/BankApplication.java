@@ -29,6 +29,7 @@ public class BankApplication
 	 @BeforeClass
   public void beforeClass() 
   {
+		 //BEFORE CLASS ANNOTATION
 		 WebDriverManager.chromedriver().setup();
 		 
 		 ChromeOptions options=new ChromeOptions();
